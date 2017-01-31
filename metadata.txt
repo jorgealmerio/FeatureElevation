@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Feature Elevation
+qgisMinimumVersion=2.0
+description=Fills in a feature numerical field with elevation using Google Elevation Api
+version=1.0
+author=Jorge Almerio
+email=jorgealmerio@yahoo.com.br
+
+about=Fills in a feature numerical field with elevation using Google Elevation Api
+
+tracker=https://github.com/jorgealmerio/FeatureElevation/issues
+repository=https://github.com/jorgealmerio/FeatureElevation
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+changelog=1.0 - 2017/01/31 - Initial Release
+
+# Tags are comma separated with spaces allowed
+tags=feature, point, elevation, google, api
+
+homepage=https://github.com/jorgealmerio/FeatureElevation
+category=Plugins
+icon=icon.svg
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
